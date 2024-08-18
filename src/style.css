@@ -1,0 +1,23 @@
+body {
+  background: lightgray;
+}
+
+button {
+  color: red;
+}
+
+.highlight {
+  background: yellow;
+  transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+
+.highlight:hover {
+  background-color: #ffcccc;
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+}
